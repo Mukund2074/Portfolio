@@ -7,7 +7,7 @@ import Services from './Services';
 import Portfolio from './Portfolio';
 import Workwith from './Workwith';
 import Contact from './Contact';
-
+import { Helmet } from 'react-helmet';
 export default function Home() {
   const aboutRef = useRef(null);
   const ProjectRef = useRef(null);
@@ -35,7 +35,14 @@ export default function Home() {
  
 
   return (
-    <div>
+    <React.Fragment>
+      <Helmet>
+        <title>Mukund Hadiya Portfolio</title>
+        <meta name="description" content="Mukund Hadiya Portfolio" />
+        <meta name="keywords" content="Mukund Hadiya, Portfolio, MERN Stack Developer , NEXT JS , IOT , REACT NATIVE" />
+        <meta name="author" content="Mukund Hadiya" />
+        <link rel="canonical" href="https://mukundhadiya.netlify.app" />
+      </Helmet>
       <Header scrollToAbout={scrollToAbout} scrollToProject={scrollToProject} scrollToContact={scrollToContact} scrollToHome={scrollToHome} scrollToService={scrollToService}/>
       <Pageheader HomeRef={HomeRef}  />
       <About aboutRef={aboutRef} />
@@ -44,6 +51,6 @@ export default function Home() {
       <Workwith />
       <Contact  ContactRef={ContactRef}/>
       <Footer />
-    </div>
+    </React.Fragment>
   );
 }

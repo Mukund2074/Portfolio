@@ -14,7 +14,7 @@ export default function Portfolio({ ProjectRef }) {
 
 
 
-        <div className="col-sm-4" style={{ border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
+        <div className="col-sm-4" style={{ minWidth : '400px'  ,border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
           <Link className="portfolio-card" to={'https://blazebox.netlify.app/'} >
             <img className="portfolio-card-img" alt='coming soon' src="assets/imgs/blazebox.png" />
             <span className="portfolio-card-overlay">
@@ -33,7 +33,7 @@ export default function Portfolio({ ProjectRef }) {
         </div>
 
 
-        <div className="col-sm-4" style={{ border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
+        <div className="col-sm-4" style={{ minWidth : '400px'  ,border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
           <Link to='https://sps-user.netlify.app/' className="portfolio-card" >
             <img src="/assets/imgs/spsuser.png" className="portfolio-card-img" alt="no thumbnail" />
             <span className="portfolio-card-overlay">
@@ -52,7 +52,7 @@ export default function Portfolio({ ProjectRef }) {
         </div>
 
 
-        <div className="col-sm-4" style={{ border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
+        <div className="col-sm-4" style={{ minWidth : '400px'  ,border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
           <Link to='https://sps-admin-panel.netlify.app' className="portfolio-card" >
             <img src="/assets/imgs/spsadmin.png" className="portfolio-card-img" alt="no thumbnail" />
             <span className="portfolio-card-overlay">
@@ -70,7 +70,7 @@ export default function Portfolio({ ProjectRef }) {
           </span>
         </div>
 
-        <div className="col-sm-4" style={{ border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
+        <div className="col-sm-4" style={{ minWidth : '400px'  ,border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
           <Link to='https://game-center-by-mukund.netlify.app/' className="portfolio-card" >
             <img src="assets/imgs/gamecenter.png" className="portfolio-card-img" alt="no thumbnail" />
             <span className="portfolio-card-overlay">
@@ -89,7 +89,7 @@ export default function Portfolio({ ProjectRef }) {
         </div>
 
 
-        <div className="col-sm-4" style={{ border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
+        <div className="col-sm-4" style={{ minWidth : '400px'  ,border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
           <Link to='https://todobymuku.netlify.app/' className="portfolio-card" >
             <img src="assets/imgs/todo.png" className="portfolio-card-img" alt="no thumbnail" />
             <span className="portfolio-card-overlay">
@@ -108,7 +108,7 @@ export default function Portfolio({ ProjectRef }) {
         </div>
 
 
-        <div className="col-sm-4" style={{ border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
+        <div className="col-sm-4" style={{ minWidth : '400px'  ,border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
           <Link className="portfolio-card" to='https://dailyburstnews.netlify.app/'>
             <img className="portfolio-card-img" src="assets/imgs/dailyburst.png" alt="no thumbnail" />
             <span className="portfolio-card-overlay">
@@ -126,7 +126,7 @@ export default function Portfolio({ ProjectRef }) {
           </span>
         </div>
 
-        <div className="col-sm-4" style={{ border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
+        <div className="col-sm-4" style={{minWidth : '400px'  , border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
           <Link className="portfolio-card" to={`https://github.com/Mukund2074/dailyburstApp`}>
             <img className="portfolio-card-img" style={{ height: '350px', width: '350px' }} src="https://img.freepik.com/free-vector/modern-coming-soon-poster-with-stay-tuned-message_1017-39310.jpg" alt="Comming soon" />
             <span className="portfolio-card-overlay">
@@ -145,7 +145,7 @@ export default function Portfolio({ ProjectRef }) {
         </div>
 
 
-        <div className="col-sm-4" style={{ border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
+        <div className="col-sm-4" style={{ minWidth : '400px'  ,border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
           <Link className="portfolio-card" to='https://portfoliotemplatemuku.netlify.app/'>
             <img className="portfolio-card-img" style={{ height: '350px', width: '350px' }} src="https://static.vecteezy.com/system/resources/previews/004/467/266/non_2x/portfolio-sketch-neon-icon-simple-thin-line-outline-of-education-icons-for-ui-and-ux-website-or-mobile-application-isolated-on-brick-wall-vector.jpg" alt="no thumbnail" />
             <span className="portfolio-card-overlay">
@@ -163,7 +163,7 @@ export default function Portfolio({ ProjectRef }) {
           </span>
         </div>
 
-        <div className="col-sm-4" style={{ border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
+        <div className="col-sm-4" style={{minWidth : '400px'  , border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
           <Link className="portfolio-card" >
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXlCUnNO6Xap2bDv6UKzGJtPNvsZdyGLYtEA&s" className="portfolio-card-img" alt="portfolio" />
             <span className="portfolio-card-overlay">
@@ -182,7 +182,7 @@ export default function Portfolio({ ProjectRef }) {
         </div>
 
 
-        <div className="col-sm-4" style={{ border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
+        <div className="col-sm-4" style={{minWidth : '400px'  , border : '1px solid #d2d2d2' ,backgroundColor : '#d2d2d2' , marginLeft : '20px', overflow:'hidden' , maxHeight:'350px' , boxShadow : '0 0 20px #695aa6' ,  padding : '10px' , borderRadius : '20px'}}>
           <Link className="portfolio-card" >
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXlCUnNO6Xap2bDv6UKzGJtPNvsZdyGLYtEA&s" className="portfolio-card-img" alt="portfolio" />
             <span className="portfolio-card-overlay">

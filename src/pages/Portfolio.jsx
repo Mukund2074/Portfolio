@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 export default function Portfolio({ ProjectRef }) {
 
@@ -80,43 +79,75 @@ export default function Portfolio({ ProjectRef }) {
 
 
   return (
-    <div ref={ProjectRef}>
-      <section className="section" style={{ backgroundColor: '#F2F2F2' }} id="portfolio">
+    <div   style={{
+      backgroundImage: 'linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%)',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      padding: '50px',
+    }} ref={ProjectRef}>
+      <section className="section" id="portfolio">
         <p className="section-subtitle">What I Did ?</p>
         <h6 className="section-title mb-6">Portfolio</h6>
 
 
-        <div style={{ display: 'flex', justifyContent: 'space-between', maxWidth: '100%', flexDirection: 'row', overflowX: 'scroll', gap: '30px', padding: '30px' }} >
-
+        <div className="row">
           {links.map((link, index) => (
-            <div key={index} className="col-sm-12 col-md-4 col-lg-4" style={{
-              minWidth: '250px',
-              backgroundColor: '#d2d2d2',
-              overflow: 'hidden',
-              padding: '10px',
-              maxHeight: '450px',
-              boxShadow: '0 0 20px #695aa6',
-            }}>
-              <Link to={link.to} className="portfolio-card" style={{  maxHeight: '200px' , overflow: 'hidden'}}>
-                <img src={link.img} className='w-100 ' alt={link.name} />
-                <span className="portfolio-card-overlay">
-                  <span className="portfolio-card-caption">
-                    <h4>{link.name}</h4>
-                    <h4>{link.subname}</h4>
-                    <p className="font-weight-normal">Category: {link.category} <br /> click to visit</p>
-                  </span>
-                </span>
-              </Link>
-              <span className="portfolio-card-caption">
-                <h4>{link.name}</h4>
-                <h4>{link.subname}</h4>
-                <p className="font-weight-normal">Category: {link.category} </p>
-              </span>
+            <div key={index} className="col-sm-6 col-md-4 col-lg-3 mb-4">
+              <div
+                className="card shadow-sm h-100"
+                style={{
+                  transition: 'all 0.3s ease',
+                  borderRadius: '10px',
+                  position: 'relative',
+                }}
+              >
+                <img
+                  src={link.img}
+                  alt={link.name}
+                  className="card-img-top"
+                  style={{
+                    objectFit: 'cover',
+                    height: '200px',
+                    borderTopLeftRadius: '10px',
+                    borderTopRightRadius: '10px',
+                  }}
+                />
+                <div className="card-body">
+                  <h5 className="card-title">{link.name}</h5>
+                  <h6 className="card-subtitle mb-2 text-muted">{link.subname}</h6>
+                  <p className="card-text"> {link.category}</p>
+
+                  <a
+                    href={link.to}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="btn btn-primary"
+                    style={{
+                      fontWeight: '600',
+                      padding: '10px 20px',
+                      borderRadius: '5px',
+                    }}
+                  >
+                    Click to Visit
+                  </a>
+                </div>
+              </div>
             </div>
           ))}
-
         </div>
       </section>
+
+      <style>{`
+        .card:hover {
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 4px 30px rgba(105, 90, 166, 0.6);
+          transform: translateY(-5px);
+          filter: brightness(1.05);
+        }
+
+        .card {
+          transition: all 0.3s ease;
+        }
+      `}</style>
     </div>
   )
 }

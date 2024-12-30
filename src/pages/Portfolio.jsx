@@ -26,6 +26,14 @@ export default function Portfolio({ ProjectRef }) {
       category: "PARKING MANAGER"
     },
     {
+      name: "ANIMATION PORTFOLIO",
+      subname: "Portfolio Project in Animation",
+      to: "https://pratik-mehta-portfolio.netlify.app/",
+      img: '/assets/imgs/Portfolio-Pratik.png',
+      category: "Portfolio Project"
+
+    },
+    {
       name: "GAME CENTER",
       subname: "MINI GAMES BASED ON JS",
       to: "https://game-center-by-mukund.netlify.app/",
@@ -79,7 +87,7 @@ export default function Portfolio({ ProjectRef }) {
 
 
   return (
-    <div   style={{
+    <div style={{
       backgroundImage: 'linear-gradient(to top, #fff 0%, rgba(105, 90, 166, 0.35) 99%, rgba(105, 90, 166, 0.5) 100%)',
       backgroundSize: 'cover',
       backgroundPosition: 'center',

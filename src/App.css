@@ -217,6 +217,25 @@
   padding: 0;
 }
 
+/* mobile navbar: center Cursor option with other links */
+@media (max-width: 991.98px) {
+  .custom-navbar .nav .item {
+    text-align: center;
+  }
+  .custom-navbar .nav .item .nav-cursor-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 7px 12px;
+    color: #6c757d;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .custom-navbar.affix .nav .item .nav-cursor-btn {
+    color: #6c757d;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

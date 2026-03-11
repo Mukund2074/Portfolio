@@ -2,7 +2,7 @@
 
 > Project Manager & Full Stack Engineer · MERN Stack · API & IoT · Always here to support and connect.
 
-**Live site:** [mukundhadiya.netlify.app](https://mukundhadiya.netlify.app)
+**Live site:** [portfolio-mukund-hadiya.netlify.app](https://portfolio-mukund-hadiya.netlify.app/)
 
 ---
 
@@ -10,12 +10,12 @@
 
 | Section | Link |
 |--------|------|
-| **Home** | [mukundhadiya.netlify.app/#home](https://mukundhadiya.netlify.app/#home) |
-| **About** | [mukundhadiya.netlify.app/#about](https://mukundhadiya.netlify.app/#about) |
-| **Experience** | [mukundhadiya.netlify.app/#experience](https://mukundhadiya.netlify.app/#experience) |
-| **Services** | [mukundhadiya.netlify.app/#service](https://mukundhadiya.netlify.app/#service) |
-| **Portfolio** | [mukundhadiya.netlify.app/#portfolio](https://mukundhadiya.netlify.app/#portfolio) |
-| **Contact** | [mukundhadiya.netlify.app/#contact](https://mukundhadiya.netlify.app/#contact) |
+| **Home** | [portfolio-mukund-hadiya.netlify.app/#home](https://portfolio-mukund-hadiya.netlify.app/#home) |
+| **About** | [portfolio-mukund-hadiya.netlify.app/#about](https://portfolio-mukund-hadiya.netlify.app/#about) |
+| **Experience** | [portfolio-mukund-hadiya.netlify.app/#experience](https://portfolio-mukund-hadiya.netlify.app/#experience) |
+| **Services** | [portfolio-mukund-hadiya.netlify.app/#service](https://portfolio-mukund-hadiya.netlify.app/#service) |
+| **Portfolio** | [portfolio-mukund-hadiya.netlify.app/#portfolio](https://portfolio-mukund-hadiya.netlify.app/#portfolio) |
+| **Contact** | [portfolio-mukund-hadiya.netlify.app/#contact](https://portfolio-mukund-hadiya.netlify.app/#contact) |
 
 ---
 
@@ -73,7 +73,7 @@ Mukund Hadiya — **Project Manager** at Xmatiq Technologies with **~3 years** o
 - **GitHub:** [github.com/Mukund2074](https://github.com/Mukund2074)  
 - **Instagram:** [@ahir_mukund_20](https://www.instagram.com/ahir_mukund_20)  
 - **Facebook:** [Mukund Hadiya](https://www.facebook.com/mukund.hadiya.3)  
-- **WhatsApp:** Reach out via [portfolio CTA](https://mukundhadiya.netlify.app/#contact)  
+- **WhatsApp:** Reach out via [portfolio CTA](https://portfolio-mukund-hadiya.netlify.app/#contact)  
 
 ---
 

@@ -3,6 +3,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Pageheader from './Pageheader';
 import About from './About';
+import Experience from './Experience';
 import Services from './Services';
 import Portfolio from './Portfolio';
 import Workwith from './Workwith';
@@ -10,6 +11,7 @@ import Contact from './Contact';
 import { Helmet } from 'react-helmet';
 export default function Home() {
   const aboutRef = useRef(null);
+  const experienceRef = useRef(null);
   const ProjectRef = useRef(null);
   const ContactRef = useRef(null);
   const HomeRef = useRef(null);
@@ -32,20 +34,25 @@ export default function Home() {
   function scrollToService() {
     ServiceRef.current.scrollIntoView({ behavior: 'smooth' });
   }
- 
+
+  function scrollToExperience() {
+    experienceRef.current.scrollIntoView({ behavior: 'smooth' });
+  }
+
 
   return (
     <React.Fragment>
       <Helmet>
         <title>Mukund Hadiya Portfolio</title>
-        <meta name="description" content="Mukund Hadiya Portfolio" />
+        <meta name="description" content="Mukund Hadiya – Project Manager & Full Stack Engineer at Xmatiq Technologies. MERN Stack, API & IoT. 3+ years experience." />
         <meta name="keywords" content="Mukund Hadiya, Portfolio, MERN Stack Developer , NEXT JS , IOT , REACT NATIVE" />
         <meta name="author" content="Mukund Hadiya" />
         <link rel="canonical" href="https://mukundhadiya.netlify.app" />
       </Helmet>
-      <Header scrollToAbout={scrollToAbout} scrollToProject={scrollToProject} scrollToContact={scrollToContact} scrollToHome={scrollToHome} scrollToService={scrollToService}/>
+      <Header scrollToAbout={scrollToAbout} scrollToExperience={scrollToExperience} scrollToProject={scrollToProject} scrollToContact={scrollToContact} scrollToHome={scrollToHome} scrollToService={scrollToService}/>
       <Pageheader HomeRef={HomeRef}  />
       <About aboutRef={aboutRef} />
+      <Experience experienceRef={experienceRef} />
       <Services ServiceRef={ServiceRef} />
       <Portfolio ProjectRef={ProjectRef}/>
       <Workwith />

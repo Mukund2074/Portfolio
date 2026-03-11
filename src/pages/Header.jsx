@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useCursorFollower } from '../components/CursorFollowerProvider';
 
-export default function Header( {scrollToProject ,  scrollToAbout , scrollToContact , scrollToHome , scrollToService } ) {
+export default function Header( {scrollToProject , scrollToAbout , scrollToExperience , scrollToContact , scrollToHome , scrollToService } ) {
+  const cursor = useCursorFollower();
   function toggleNav() {
     var navToggle = document.getElementById('nav-toggle');
     var navMenu = document.querySelector('ul.nav');
@@ -24,6 +26,9 @@ export default function Header( {scrollToProject ,  scrollToAbout , scrollToCont
             <Link className="link" onClick={scrollToAbout}>About</Link>
           </li>
           <li className="item">
+            <Link className="link" onClick={scrollToExperience}>Experience</Link>
+          </li>
+          <li className="item">
             <Link className="link" onClick={scrollToService}>Service</Link>
           </li>
           <li className="item">
@@ -31,6 +36,11 @@ export default function Header( {scrollToProject ,  scrollToAbout , scrollToCont
           </li>
           <li className="item">
             <Link className="link" onClick={scrollToContact}>Contact</Link>
+          </li>
+          <li className="item">
+            <button type="button" className="link nav-cursor-btn" onClick={cursor.open}>
+              Cursor
+            </button>
           </li>
         </ul>
         <span id="nav-toggle" onClick={toggleNav} className="hamburger hamburger--elastic">

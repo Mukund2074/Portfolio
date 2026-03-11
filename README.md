@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+# 👋 Mukund Hadiya — Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Project Manager & Full Stack Engineer · MERN Stack · API & IoT · Always here to support and connect.
 
-## Available Scripts
+**Live site:** [mukundhadiya.netlify.app](https://mukundhadiya.netlify.app)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🧭 Jump to sections
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| Section | Link |
+|--------|------|
+| **Home** | [mukundhadiya.netlify.app/#home](https://mukundhadiya.netlify.app/#home) |
+| **About** | [mukundhadiya.netlify.app/#about](https://mukundhadiya.netlify.app/#about) |
+| **Experience** | [mukundhadiya.netlify.app/#experience](https://mukundhadiya.netlify.app/#experience) |
+| **Services** | [mukundhadiya.netlify.app/#service](https://mukundhadiya.netlify.app/#service) |
+| **Portfolio** | [mukundhadiya.netlify.app/#portfolio](https://mukundhadiya.netlify.app/#portfolio) |
+| **Contact** | [mukundhadiya.netlify.app/#contact](https://mukundhadiya.netlify.app/#contact) |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## About
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Mukund Hadiya — **Project Manager** at Xmatiq Technologies with **~3 years** of experience. MERN Stack developer with a focus on **API and IoT integration**. Builds with React, Node.js, MongoDB, React Native, Next.js, Fastify, and Drizzle. From intern to PM: building products, leading teams, and growing with every step.
 
-### `npm run build`
+*I'm always available to support and connect — feel free to reach out anytime.*
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Experience
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Role | Company | Period |
+|------|---------|--------|
+| Project Manager | Xmatiq Technologies | Feb 2026 – Present |
+| Full Stack Engineer | Xmatiq Technologies | Mar 2025 – Feb 2026 |
+| Full Stack Engineer (Trainee) | Xmatiq Technologies | Jan 2025 – Mar 2025 |
+| Frontend Developer | Astute Info Solution | Jul 2024 – Dec 2024 |
+| Project Intern | InfoLabz | May 2023 – May 2024 |
 
-### `npm run eject`
+*Location: Ahmedabad, Gujarat, India*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Services & stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Frontend:** React, React Native, Next.js, Tailwind, Bootstrap, Material UI  
+- **Backend:** Node.js, Express, Fastify, Drizzle  
+- **Data:** MongoDB Atlas  
+- **IoT:** Arduino Uno, NodeMCU (ESP8266)  
+- **Other:** API design, payment systems, team leadership  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Portfolio — projects
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Project | Description | Link |
+|---------|-------------|------|
+| BLAZEBOX | Video streaming · Next.js | [blazebox.netlify.app](https://blazebox.netlify.app/) |
+| Smart Parking System | Full stack IoT (user) | [sps-user.netlify.app](https://sps-user.netlify.app/) |
+| Smart Parking Admin | Full stack IoT (admin) | [sps-admin-panel.netlify.app](https://sps-admin-panel.netlify.app) |
+| Animation Portfolio | Portfolio (Pratik) | [pratik-mehta-portfolio.netlify.app](https://pratik-mehta-portfolio.netlify.app/) |
+| Game Center | Mini games · React | [game-center-by-mukund.netlify.app](https://game-center-by-mukund.netlify.app/) |
+| Todo | React Hooks, Tailwind | [todobymuku.netlify.app](https://todobymuku.netlify.app/) |
+| DailyBurst | Live API news | [dailyburstnews.netlify.app](https://dailyburstnews.netlify.app/) |
+| Portfolio template | Self-made designs | [portfoliotemplatemuku.netlify.app](https://portfoliotemplatemuku.netlify.app/) |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Connect
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **Email:** [hadiyamukund16@gmail.com](mailto:hadiyamukund16@gmail.com)  
+- **LinkedIn:** [linkedin.com/in/mukund-hadiya-8a228b303](https://www.linkedin.com/in/mukund-hadiya-8a228b303)  
+- **GitHub:** [github.com/Mukund2074](https://github.com/Mukund2074)  
+- **Instagram:** [@ahir_mukund_20](https://www.instagram.com/ahir_mukund_20)  
+- **Facebook:** [Mukund Hadiya](https://www.facebook.com/mukund.hadiya.3)  
+- **WhatsApp:** Reach out via [portfolio CTA](https://mukundhadiya.netlify.app/#contact)  
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Run locally
 
-### Making a Progressive Web App
+```bash
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Open [http://localhost:3000](http://localhost:3000).  
+Production build: `npm run build`.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Tech:** React · Create React App

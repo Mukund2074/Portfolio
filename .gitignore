@@ -10,6 +10,11 @@
 
 # production
 /build
+/dist
+
+# local deploy (not pushed)
+/Dockerfile
+/src/k8s/
 
 # misc
 .DS_Store
